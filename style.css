@@ -1,0 +1,87 @@
+.banner {
+    background: linear-gradient(rgba(4,9,9,0.5),rgba(4,9,9,0.5)), url("./Img/Foto\ bersama.jpeg")
+    no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+.display-6 {
+    font-family: "Frank Ruhl Libre", serif;
+    color: #fff;
+}
+.display-1 {
+    font-family: "Frank Ruhl Libre", serif;
+    color: #fff;
+}
+.lingkaran {
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    margin: auto;
+    height: 150px;
+    color: #fff;
+    background-color: #dc3545;
+}
+
+.lingkaran i {
+    position: relative;
+    top: 30px;
+}
+
+.crop-img {
+    object-fit: cover;
+}
+
+.tim img {
+    width: 250px;
+    border: 10px solid #cccccc;
+}
+.image-container {
+    position: relative;
+}
+
+.image-link {
+    display: block;
+    position: relative;
+}
+
+
+.link-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.image-link:hover .link-icon {
+    opacity: 1;
+}
+
+a.social {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #333;
+    line-height: 40px;
+}
+
+.client img {
+    height: auto;
+    max-height: 50px;
+}
+
+.kontak {
+    background: url("https://wallpaperaccess.com/full/1867010.jpg") no-repeat
+    center center;
+    background-size: cover;
+    padding-bottom: 20%;
+    padding-top: 20%;
+    color: #fff;
+}
